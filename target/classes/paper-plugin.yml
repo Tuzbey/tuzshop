@@ -1,0 +1,9 @@
+name: tuzshop
+version: '5.0-DEV'
+main: com.tuzshop.market
+api-version: '1.21'
+depend: [WorldGuard, DecentHolograms, Vault]
+commands:
+  market:
+    description: Pazar komutları
+    usage: /market <create|remove|additem|removeitem|list>

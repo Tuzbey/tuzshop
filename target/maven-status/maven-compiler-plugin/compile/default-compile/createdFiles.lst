@@ -1,0 +1,10 @@
+com\tuzshop\HologramManager.class
+com\tuzshop\MarketCommand.class
+com\tuzshop\MarketManager.class
+com\tuzshop\ConfigManager.class
+com\tuzshop\market.class
+com\tuzshop\MarketItem.class
+com\tuzshop\RegionManager.class
+com\tuzshop\MarketListener.class
+com\tuzshop\PlayerMarket.class
+com\tuzshop\DatabaseManager.class
