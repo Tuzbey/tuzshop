@@ -1,5 +1,6 @@
 package com.tuzshop;
 
+import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.Bukkit;
 
@@ -46,7 +47,12 @@ public class Market extends JavaPlugin {
     }
 
     private void registerCommands() {
-        this.getCommand("Market").setExecutor(new MarketCommand(this));
+        PluginCommand marketCommand = this.getCommand("market");
+        if (marketCommand != null) {
+            marketCommand.setExecutor(new MarketCommand(this));
+        } else {
+            getLogger().severe("'market' komutu kaydedilemedi! paper-plugin.yml dosyanızı kontrol edin.");
+        }
     }
 
     private void registerEvents() {

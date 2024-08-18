@@ -6,4 +6,4 @@ depend: [WorldGuard, DecentHolograms, Vault]
 commands:
   market:
     description: Pazar komutları
-    usage: /Market <create|remove|additem|removeitem|list>
+    usage: /market

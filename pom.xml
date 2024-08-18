@@ -52,11 +52,6 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
-                <includes>
-                    <include>config.yml</include>
-                    <include>paper-plugin.yml</include>
-                    <!-- Diğer kaynak dosyalarınız varsa buraya ekleyin -->
-                </includes>
             </resource>
         </resources>
     </build>
